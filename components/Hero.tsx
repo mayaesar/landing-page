@@ -1,12 +1,15 @@
+
 import { BiLogoInstagram, BiLogoPinterestAlt, BiLogoGoogle, BiLogoTiktok, BiLogoYoutube, BiNotepad, BiMap } from "react-icons/bi";
 import { SiX } from "react-icons/si";
+
+import Image from "next/image";
 
 export default function Hero(){
 
     return(
         <section className="flex-1 flex flex-col-reverse md:flex-row items-center justify-center gap-8 md:gap-24">
-            <div className="relative w-full md:w-[280px] shrink-0 h-full">
-                <img src="/phoneMock.png" alt="phone frame" className="px-12 md:px-0 md:absolute md:top-[10%]"/>
+            <div className="relative w-full md:max-w-[280px] aspect-[9/16] shrink-0">
+                <Image src="/phoneMock.png" alt="phone frame" fill={true} className="md:top-[10%]"/>
             </div>
             <div>
                 <h1 className="font-theme text-gray-900 text-5xl md:text-7xl font-bold mb-6">Save, Organize, <br/> Collaborate</h1>

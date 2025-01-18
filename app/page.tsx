@@ -38,4 +38,3 @@ export default function Home() {
       </main>
   );
 }
-// linear-gradient(90deg, #fdfcfb 0%, #e2d1c3 100%)
