@@ -3,7 +3,7 @@ export default function Footer(){
 
     return (
         <footer className="flex flex-col w-full items-center gap-6 py-10 border-t border-gray-700">
-            <div className="flex w-full items-center justify-between mb-6">
+            <div className="flex flex-col md:flex-row w-full items-center justify-between mb-6 gap-6">
                 <div className="flex items-center gap-6">
                     <div className="hidden md:flex items-center">
                         <img src="/iconBookmarks.svg" alt="logo of a bookmark" className="size-8"/>
