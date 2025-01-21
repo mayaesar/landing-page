@@ -9,8 +9,8 @@ export default function Footer(){
                         <img src="/iconBookmarks.svg" alt="logo of a bookmark" className="size-8"/>
                         <h1 className="text-orange-600 font-semibold">Shelf It</h1>
                     </div>
-                    <a className="text-sm md:text-lg" href="">Terms & Conditions </a>
-                    <p className="text-sm md:text-lg">Privacy Policy </p>
+                    <a className="text-sm md:text-lg" href="/terms-and-conditions" target="_blank">Terms & Conditions </a>
+                    <a className="text-sm md:text-lg" href="/privacy-policy" target="_blank">Privacy Policy </a>
                 </div>
 
                 <button className="bg-black text-white text-sm rounded-md hover:bg-gray-800 py-2 px-4">
