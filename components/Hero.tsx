@@ -14,8 +14,8 @@ export default function Hero(){
             <div>
                 <h1 className="font-theme text-gray-900 text-5xl md:text-7xl font-bold mb-6">Save, Organize, <br/> Collaborate</h1>
                 <p className="text-gray-700 text-lg">
-                    Organize your bookmarks, notes, and projects in one
-                    place. Collaborate with others to share and manage your bookmarks.
+                    <strong>Shelf It</strong> lets you save content from anywhere online into one place. Create custom
+                        bookshelves to organize your ideas and collaborate with friends.
                 </p>
                 <div className="flex items-center justify-between md:justify-start gap-2 md:gap-4 mt-12 mb-6">
                     <BiLogoInstagram className="size-8"/>

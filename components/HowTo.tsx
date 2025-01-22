@@ -1,4 +1,5 @@
 import Image from "next/image";
+import VideoDisplay from "@/components/VideoDisplay";
 
 
 export default function HowTo(){
@@ -13,19 +14,14 @@ export default function HowTo(){
                         in one place
                     </h1>
                     <p className="text-gray-700 md:text-lg">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua.
+                        Instantly create a bookmark from any platform on the web and always have access to it.
                     </p>
                 </div>
-                <div className="relative w-full md:max-w-[280px] aspect-[9/16] shrink-0">
-                    <Image src="/phoneMock.png" alt="phone frame" fill={true} className="top-[10%]"/>
-                </div>
+                <VideoDisplay videoUrl="/videoTest.MP4" />
             </div>
 
             <div className="md:h-dvh flex flex-col-reverse md:flex-row items-center justify-center gap-12 md:gap-24 mb-12 md:mb-0">
-                <div className="relative w-full md:max-w-[280px] aspect-[9/16] shrink-0">
-                    <Image src="/phoneMock.png" alt="phone frame" fill={true} className="top-[10%]"/>
-                </div>
+                <VideoDisplay videoUrl="/videoTest.MP4" />
                 <div>
                     <h1 className="text-4xl md:text-6xl font-theme font-bold mb-6">
                         All of your saved content
@@ -51,9 +47,7 @@ export default function HowTo(){
                         labore et dolore magna aliqua.
                     </p>
                 </div>
-                <div className="relative w-full md:max-w-[280px] aspect-[9/16] shrink-0">
-                    <Image src="/phoneMock.png" alt="phone frame" fill={true} className="top-[10%]"/>
-                </div>
+                <VideoDisplay videoUrl="/videoTest.MP4" />
             </div>
         </section>
 

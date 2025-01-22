@@ -1,3 +1,4 @@
+import Image from "next/image";
 
 export default function AboutUs() {
 
@@ -12,6 +13,7 @@ export default function AboutUs() {
                     Bookmarks was born! It became such a time-saver for us that, after a year of using it ourselves, we
                     decided to share it with the world. We hope it helps you as much as it’s helped us!
                 </p>
+                <Image src="/maya-and-colin.svg" alt="Maya and Colin" width={500} height={500} />"
             </div>
         </section>
     );
