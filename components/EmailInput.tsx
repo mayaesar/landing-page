@@ -52,8 +52,6 @@ export default function EmailInput() {
                     <input type="email"
                            name="email"
                            placeholder="example@email.com"
-                        // value={email}
-                        // onChange={(e) => setEmail(e.target.value)}
                            className="bg-gray-400 bg-opacity-10 flex-1 rounded-md px-4 py-2 text-gray-700 focus:outline-pink-600"
                     />
 
