@@ -13,12 +13,12 @@ export default function Footer(){
                     <a className="text-sm md:text-lg" href="/privacy-policy" target="_blank">Privacy Policy </a>
                 </div>
 
-                <button className="bg-black text-white text-sm rounded-md hover:bg-gray-800 py-2 px-4">
-                    Download now
-                </button>
+                <a href="#hero" className="bg-pink-600 text-white rounded-md px-4 py-2 shrink-0 hover:bg-pink-700">
+                    Early Access
+                </a>
             </div>
 
-            <p className="text-xs text-gray-700">© 2025 Shelf It. All rights reserved.</p>
+            <p className="text-xs text-gray-700">©2025 Mivory. All rights reserved.</p>
 
         </footer>
     );

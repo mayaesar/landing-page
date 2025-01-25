@@ -7,12 +7,13 @@ import HowTo from "@/components/HowTo";
 import AboutUs from "@/components/AboutUs";
 import Footer from "@/components/Footer";
 import GoogleAnalytics from "@/components/GoogleAnalytics";
+import WelcomeEmail from "@/components/WelcomeEmail";
 
 export default function Home() {
     const { scrollYProgress } = useScroll()
 
   return (
-      <main className="flex-1 flex flex-col max-w-screen-lg w-full mx-auto px-3">
+      <main id="top" className="flex-1 flex flex-col max-w-screen-lg w-full mx-auto px-3">
           <GoogleAnalytics />
           <motion.div
               id="scroll-indicator"
