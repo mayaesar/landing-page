@@ -2,12 +2,13 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
 export default function PrivacyPolicy(){
+    const name = "Mivory";
     return (
         <body className="flex-1 flex flex-col max-w-screen-lg w-full mx-auto px-3">
         <Header />
         <main className="flex-1 flex flex-col max-w-screen-lg w-full mx-auto px-3 py-6">
             <h1 className="text-center text-5xl font-bold mb-12">Privacy Policy</h1>
-            <p className="font-semibold mb-6">Welcome to Bookmarks. Your privacy is critically important to us. This Privacy Policy explains how we
+            <p className="font-semibold mb-6">Welcome to {name}. Your privacy is critically important to us. This Privacy Policy explains how we
                 collect, use, and protect your information when you use our application.</p>
 
             <h2 className="text-2xl font-semibold text-gray-800 mb-4">Information We Collect</h2>

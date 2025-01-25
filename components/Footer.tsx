@@ -6,8 +6,8 @@ export default function Footer(){
             <div className="flex flex-col md:flex-row w-full items-center justify-between mb-6 gap-6">
                 <div className="flex items-center gap-6">
                     <div className="hidden md:flex items-center">
-                        <img src="/iconBookmarks.svg" alt="logo of a bookmark" className="size-8"/>
-                        <h1 className="text-orange-600 font-semibold">Shelf It</h1>
+                        <img src="/micory-icon-no-bg.svg" alt="logo of a bookmark" className="size-8"/>
+                        <h1 className="text-pink-950 font-semibold">MIVORY</h1>
                     </div>
                     <a className="text-sm md:text-lg" href="/terms-and-conditions" target="_blank">Terms & Conditions </a>
                     <a className="text-sm md:text-lg" href="/privacy-policy" target="_blank">Privacy Policy </a>

@@ -9,7 +9,7 @@ export default function HowTo(){
                 <div>
                     <h1 className="text-4xl md:text-6xl font-theme font-bold mb-6">
                         All of your favourite content
-                        {" "}<span className="text-orange-600">Saved</span>{" "}
+                        {" "}<span className="text-pink-700">Saved</span>{" "}
                         in one place
                     </h1>
                     <p className="text-gray-700 md:text-lg">
@@ -24,7 +24,7 @@ export default function HowTo(){
                 <div>
                     <h1 className="text-4xl md:text-6xl font-theme font-bold mb-6">
                         All of your saved content
-                        {" "}<span className="text-orange-600">Organized</span>{" "}
+                        {" "}<span className="text-pink-700">Organized</span>{" "}
                         the way you want
                     </h1>
                     <p className="text-gray-700 text-lg">
@@ -38,7 +38,7 @@ export default function HowTo(){
                 <div>
                     <h1 className="text-4xl md:text-6xl font-theme font-bold mb-6">
                         Share your favourites by
-                        {" "}<span className="text-orange-600">Collaborating</span>{" "}
+                        {" "}<span className="text-pink-700">Collaborating</span>{" "}
                         with your friends & family
                     </h1>
                     <p className="text-gray-700 text-lg">

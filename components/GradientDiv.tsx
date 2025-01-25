@@ -20,7 +20,7 @@ const GradientDiv = ({children}: {children: ReactNode}) => {
     useMouseMove((e) => {
         const html = document.querySelector("html");
         if (!html) return;
-        html.style.backgroundImage = `radial-gradient(circle at ${e.pageX}px ${e.pageY}px, rgb(254 215 170) 1%, rgb(255 247 237) 5%)`;
+        html.style.backgroundImage = `radial-gradient(circle at ${e.pageX}px ${e.pageY}px, rgb(190 24 93) 0%, rgb(253 242 248) 4%)`;
     });
 
     return (

@@ -25,7 +25,7 @@ export default function Home() {
                   right: 0,
                   height: 10,
                   originX: 0,
-                  backgroundColor: "#ea580c",
+                  backgroundColor: "#be185d",
               }}
           />
           <div className="md:h-dvh flex flex-col gap-3 py-3 md:py-6">

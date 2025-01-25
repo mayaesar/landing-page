@@ -10,7 +10,7 @@
 
 html {
     min-height: 100%;
-    @apply bg-orange-50;
+    @apply bg-pink-50;
 }
 
 .font-theme {

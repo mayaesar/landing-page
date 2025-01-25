@@ -2,7 +2,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
 export default function TermsAndConditionsPage() {
-    const name = "Shelf It";
+    const name = "Mivory";
 
     return(
         <body className="flex-1 flex flex-col max-w-screen-lg w-full mx-auto px-3">
