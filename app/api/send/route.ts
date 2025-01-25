@@ -1,8 +1,6 @@
 import { Resend } from 'resend';
 import WelcomeEmail from "@/components/WelcomeEmail";
 
-const resend = new Resend(process.env.RESEND_API_KEY);
-
 export const runtime = process.env.NODE_ENV === 'production' ? 'edge' : undefined;
 
 const validateTurnstile = async (token: string, ip: string | null) => {
@@ -43,6 +41,8 @@ export async function POST(request: Request) {
 
     try {
         await validateTurnstile(token, ip);
+
+        const resend = new Resend(process.env.RESEND_API_KEY);
 
         const result = await resend.emails.send({
             from: 'welcome@mivory.app',
